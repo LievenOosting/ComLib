@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日间模式 -->
+    <style name="AppBaseTheme_Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/day_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/day_windows_bg</item>
+
+
+    </style>
+
+    <!-- 夜间模式 -->
+    <style name="AppBaseTheme_Night" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/night_windows_bg</item>
+    </style>
+
+
+</resources>
